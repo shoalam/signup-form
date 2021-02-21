@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+form {
+  width: 50%;
+  margin:0 auto;
+  background-color: rgba(53, 43, 103, 0.7);
+  border-radius: 5px;
+  padding: 40px 80px;
+}
+
+.first-name {
+  width: 48%;
+  float: left;
+  margin-right: 10px;
+}
+.last-name {
+  width: 50%;
+  float: left;
+}
+label {
+  font-size: 25px;
+  font-weight: bold;
+  color: salmon;
+  display: block;
+}
+.input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: block;
+}
+
+.age {
+  width: 50%;
+  float: left;
+}
+.age input {
+  width: 80%;
+}
+.subject {
+  width: 50%;
+  float: left;
+  color: salmon;
+  margin-bottom: 30px;
+}
+
+.date {
+  width: 50%;
+  float: left;
+}
+.country {
+  width: 50%;
+  float: left;
+}
+
+button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: seagreen;
+}
+input:focus {
+  outline: none;
+}
